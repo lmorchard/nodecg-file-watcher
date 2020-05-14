@@ -1,0 +1,41 @@
+{
+  "name": "file-watcher",
+  "version": "0.0.1",
+  "description": "NodeCG bundle that watches bundle files and sends events",
+  "homepage": "",
+  "author": {
+    "name": "Les Orchard",
+    "email": "me@lmorchard.com",
+    "url": "https://lmorchard.com"
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "files": [
+    "extension"
+  ],
+  "scripts": {},
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "mount": [
+      {
+        "directory": "public",
+        "endpoint": "public"
+      }
+    ]
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "reload": "^3.0.4",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
